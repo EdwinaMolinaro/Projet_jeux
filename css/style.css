@@ -1,3 +1,123 @@
-.class-test{
-  background-color: black;
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+/*BUTTON ACCEUIL LUIGI*/
+
+.accueil{
+  background: url("../img/Luigi_wallpaper.png");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-position: center;
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bouton-accueil{
+  background-color: #45a232;
+  border-radius: 6px;
+  border: solid 2px #eeeeee;
+  color: #eeeeee;
+  font-size: 20px;
+  height:10%;
+  font-weight: bold;
+  transition: all 1.5s;
+}
+
+.bouton-accueil:hover{
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: inherit;
+  color: black;
+  border: none;
+}
+
+/*END BUTTON ACCEUIL LUIGI*/
+
+/*BUTTON HORROR AND WALLPAPER*/
+
+.horror{
+  background: url("../img/cry_of_fear.png");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bouton-horror{
+  background-color: #9F938A;
+  border-radius: 6px;
+  border: solid 2px #441316;
+  color: #441316;
+  font-size: 20px;
+  height:10%;
+  font-weight: bold;
+  transition: all 1.5s;
+}
+
+.bouton-horror:hover{
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: inherit;
+  color: #A59B91;
+  border: none;
+}
+
+/*END BUTTON HORROR*/
+
+/*BUTTON SIMULATION SIMS*/
+
+.SIMULATION{
+  background: url("../img/sims_picture.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-position: center;
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bouton-SIMULATION {
+  background-color: #6C9227;
+  border-radius: 6px;
+  border: solid 2px #eeeeee;
+  color: #eeeeee;
+  font-size: 20px;
+  height:10%;
+  font-weight: bold;
+  transition: all 1.5s;
+}
+
+.bouton-SIMULATION:hover{
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: inherit;
+  color: black;
+  border: none;
+}
+
+.section{
+  border-bottom: solid black 40px;
+  border-top: solid black 40px;
 }
