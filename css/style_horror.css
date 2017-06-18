@@ -4,14 +4,15 @@
   text-align: center;
   margin-top: 5%;
   color: #030D04;
-   opacity: 0.4;
+   opacity: 0.5;
   font-weight: bold;
 }
 
 .Titre-horror h1{
-  font-size: 50px;
+  font-size: 70px;
   font-weight:  bolder;
   text-shadow: 1.5px 2px 1.5px #D5DBB5;
+  font-family: 'Patrick Hand SC', cursive;
 
 }
 
