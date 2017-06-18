@@ -31,6 +31,7 @@ html, body{
   height:10%;
   font-weight: bold;
   transition: all 1.5s;
+  text-shadow: 1px 1px 2px white;
 }
 
 .bouton-accueil:hover{
@@ -66,7 +67,7 @@ html, body{
   border-radius: 6px;
   border: solid 2px #441316;
   color: #441316;
-  font-size: 30px;
+  font-size: 35px;
   height:10%;
   font-weight: bold;
   transition: all 1.5s;

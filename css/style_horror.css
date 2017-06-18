@@ -1,3 +1,10 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Patrick Hand SC', cursive;
+  background-color: #eeeeee;
+}
+
 /*TITRE ET FOND*/
 
 .Titre-horror{
@@ -12,12 +19,11 @@
   font-size: 70px;
   font-weight:  bolder;
   text-shadow: 1.5px 2px 1.5px #D5DBB5;
-  font-family: 'Patrick Hand SC', cursive;
-
 }
 
 .WALLPAPER{
   background: url("../img/walp-residentEvil.jpg");
+
   background-size: cover;
   width: 100%;
   height: 100vh;
@@ -42,5 +48,60 @@
 }
 
 .picture_hover:hover{
-  width: 70%;
+  transform: scale(1.2);
+}
+
+/*END PICTURE*/
+/*CRY OF FEAR SECTION*/
+
+.jeux_banniere{
+  background-color: #0A0907;
+}
+
+.jeux_banniere h2{
+  margin-top: 0;
+  font-size: 100px;
+  font-weight: bolder;
+  border: solid 10px #0A0907;
+}
+
+
+.banniere_cry_of_fear h2{
+  color: transparent;
+  background: linear-gradient(#8D867D, #160C0A);
+  -webkit-background-clip: text;
+}
+
+.paragraphe{
+  margin-top: 8%;
+  font-size: 18px;
+}
+
+.bouton-photo{
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 15%;
+
+}
+
+.bouton-photo button{
+  box-shadow: 2px 2px 2px #8D867D;
+  color: #eeeeee;
+  background-color: #0A0907;
+  border-radius: 5px;
+  width: 300px;
+
+}
+
+.jeux_infos{
+  min-height: 100vh;
+}
+
+/*PAGE UNTIL DAWN*/
+
+.banniere_until_dawn h2{
+  color: transparent;
+  background: linear-gradient(#AFCFCC, #160C0A);
+  -webkit-background-clip: text;
 }
