@@ -1,0 +1,45 @@
+/*TITRE ET FOND*/
+
+.Titre-horror{
+  text-align: center;
+  margin-top: 5%;
+  color: #030D04;
+   opacity: 0.4;
+  font-weight: bold;
+}
+
+.Titre-horror h1{
+  font-size: 50px;
+  font-weight:  bolder;
+  text-shadow: 1.5px 2px 1.5px #D5DBB5;
+
+}
+
+.WALLPAPER{
+  background: url("../img/walp-residentEvil.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-position: center;
+}
+
+/*END TITRE ET FOND*/
+/*PICTURE*/
+
+.PICTURE{
+  text-align: center;
+}
+
+.picture_hover{
+  width: 60%;
+  margin-top: 30%;
+  border-radius: 10px;
+  box-shadow: 3px 2px 5px #000000;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.picture_hover:hover{
+  width: 70%;
+}

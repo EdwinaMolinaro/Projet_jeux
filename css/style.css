@@ -36,7 +36,7 @@ html, body{
   padding-left: 30px;
   padding-right: 30px;
   background-color: inherit;
-  color: black;
+  color: #eeeeee;
   border: none;
 }
 
@@ -50,6 +50,7 @@ html, body{
   width: 100%;
   height: 100vh;
   position: relative;
+  background-position: center;
 }
 
 .centered{
@@ -113,11 +114,25 @@ html, body{
   padding-left: 30px;
   padding-right: 30px;
   background-color: inherit;
-  color: black;
+  color: white;
   border: none;
 }
 
 .section{
   border-bottom: solid black 40px;
   border-top: solid black 40px;
+}
+
+/*NAVBAR*/
+
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.navbar-visible{
+  opacity: 1;
 }
